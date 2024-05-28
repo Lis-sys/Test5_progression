@@ -7,6 +7,5 @@ public abstract class Progression {
         this.firstTerm = firstTerm;
     }
 
-    // Метод для вычисления суммы должен быть переопределен в производных классах
     public abstract double calculateSum(int numberOfElements);
 }
